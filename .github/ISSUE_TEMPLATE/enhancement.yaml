@@ -1,0 +1,15 @@
+name: Feature
+description: New Feature
+title: "[Feat]: "
+labels: ["feat", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please write down the function that you want to add.
+  - type: textarea
+    id: want-feature
+    attributes:
+      label: feat specification
+    validations:
+      required: true
